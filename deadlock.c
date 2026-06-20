@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<pthread.h>
 #include<unistd.h>
-
 pthread_mutex_t mutex;
 pthread_mutex_t mutex1;
 void *thread1(void *arg)
